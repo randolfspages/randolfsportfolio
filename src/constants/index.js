@@ -7,6 +7,8 @@ import project6 from "../assets/projects/project-africanhomes-thumbnail.png";
 import project7 from "../assets/projects/project-travel-journal.jpg";
 import project8 from "../assets/projects/project-youtube-clone.jpg";
 import project9 from "../assets/projects/project-amazon-clone.jpg";
+import project10 from "../assets/projects/project-abochie-thumbnail.png";
+import project11 from "../assets/projects/project-doctorscare-thumbnail.jpg";
 // import project6 from "../assets/projects/project-youtube-clone.jpg";
 // import project7 from "../assets/projects/project-amazon-clone.jpg";
 
@@ -47,29 +49,29 @@ export const EXPERIENCES = [
     year: "2022 - to date",
     role: "Full Stack Developer / Computational Thinking Instructor",
     company: "Code for Africa e.V/Leipzig - Germany",
-    description: `Develop and maintain web and mobile applications using JavaScript, React.js, Next.js, React Native, Node.js, Express.js and MongoDB,. Design and implement RESTful APIs for data communication. Collaborat with cross-functional teams to deliver high-quality software products on schedule. I also offer computational thinking courses for young groups of IT enthusiast and IT cosultancy for Ghanaian institutions and private individuals­`,
+    description: `Develop and maintain web and mobile applications using JavaScript, React.js, Next.js, React Native, Node.js, Express.js and MongoDB,. Design and implement RESTful APIs for data communication. Collaborate with cross-functional teams to deliver high-quality software products on schedule. I also offer computational thinking courses for young groups of IT enthusiast and IT cosultancy for Ghanaian institutions and private individuals­`,
     technologies: ["Javascript", 'Python', "React.js", "Node.js","MongoDB"],
   },
   {
     year: "2019 - 2022",
-    role: "Administration Assistant (Study and Work)",
+    role: "Facility Management Assistant (Study and Work)",
     company: "StudirendenWerk, Berlin - Germany",
     description: `Office administration and facility management support. `,
     technologies: ["Microsoft Office"],
   },
   {
-    year: "2016 - 2018",
-    role: "Market Research Analyst",
-    company: "Global Warehouse Limited, Accra - Ghana",
-    description: `Conducted customer research and developed appropriate strategies and operational measures to consolidate the needs, trends and competition in the market. `,
-    technologies: ["Microsoft Office"],
+    year: "2014 - 2018",
+    role: "Co-Founder",
+    company: "Range Packaging and Designs, Accra - Ghana",
+    description: `- Led the production and campaign for sustainable packaging solution for small and medium scale businesses in Ghana.(A means to reducing single using plastic bags in Ghana) - Designed Innovative Packaging Products products for customers `,
+    technologies: ["Adobe Illustrator", "Photoshop", "CorelDraw"],
   },
   {
-    year: "2010 - 2015",
+    year: "2010 - 2013",
     role: "HR Officer",
     company: "Global Talent Masters Limited, Accra - Ghana",
     description: `Managed about 500 casual workers for FMCG companies by performing comprehensive employee report analysis to identify trends to guide employers and improve employees' performance and production. `,
-    technologies: ["Recruit Studio and Microsoft Office"],
+    technologies: ["Recruit Studio", "Microsoft Office"],
   },
 ];
 
@@ -99,7 +101,7 @@ export const EDUCATION = [
   {
     year: "2022",
     role: "MSc. Innovation Management, Entrepreneurship and Sustainability",
-    company: "Technishe Universität,  Berlin - Germany", 
+    company: "Technische Universität,  Berlin - Germany", 
   },
 
   {
@@ -123,17 +125,36 @@ export const PROJECTS = [
     image: project1,
     description:
       "BESIA is a fully functional e-commerce website with features like product listing, shopping cart, payment functionality and user authentication.",
-    technologies: ["HTML", "Tailwind CSS", "React", "Redux Toolkit", "Node.js", "Express Js", "MongoDB","Mongoose", "Json Web Token", "Bcrypt..."],
+    technologies: ["HTML", "Tailwind CSS", "React", "ReduxToolkit", "ExpressJs", "MongoDB","Mongoose", "Json Web Token", "Bcrypt..."],
     link: "#"
   },
   {
-    title: "BookieMouse - Facility Bookin App.",
+    title: "BookieMouse - Facility Booking App.",
     image: project2,
     description:
       "BookieMouse, is an application for booking facilities like conference rooms, apartments, appointments etc. with features such as authentication and validation, postings/listings and booking system.",
     technologies: ['HTML',"NextJs", "Tailwind CSS", "Appwrite", ""],
     link: "#"
   },
+
+  {
+    title: "GH¢ Abochie - Money Exchange/Transfer App",
+    image: project10,
+    description:
+      "A Banking Application that connects to multiple bank accounts, displays transactions in realtime, allows funds transfer to other users with a secure SSR system",
+    technologies: ['React',"NextJs", "shadcn, Tailwind CSS, Charts", "Zod", "Plaid", "Appwrite","Sentry"],
+    link: "#"
+  },
+
+  {
+    title: "Doctors'Care - Healthcare Management App",
+    image: project11,
+    description:
+      "A Patient management system with authentication, identification and verification, medical history and schedulling/cancelling appointments",
+    technologies: ["TypeScript","ReactHook Form", "shadcn, Tailwind CSS", "NextJs", "Zod", "Appwrite", "Twilio", "Sentry"],
+    link: "#"
+  },
+
   {
     title: "SoftJobs- Full CRUD JobListing App.",
     image: project3,
@@ -194,7 +215,8 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  Name: "Randolf Akuamoah Boateng  -  FullStack Developer | Sustainability and Innovation Ethusiast",
+  name: "Randolf Akuamoah Boateng", 
+  role: "FullStack Developer | Sustainability and Innovation Ethusiast",
   address: "Steingasse 2, 65183, Wiesbaden-Hessen ",
   phoneNo: "+49 163 140 7303 ",
   email: "randolfakuamoah@gmail.com",

@@ -5,8 +5,9 @@ import App from './App.jsx'
 import { createHashRouter, RouterProvider } from 'react-router-dom'
 import Home from './pages/home/Home.jsx'
 import Projects from './pages/projects/Projects.jsx'
-import Blog from './pages/blog/Blog.jsx'
 import Contact from './pages/contact/Contact.jsx'
+import About from './pages/about/About.jsx'
+
 
 
 
@@ -16,8 +17,8 @@ const router = createHashRouter([
     children: [
         {path:"/", element:<Home />},
         {path:"/projects", element:<Projects />},
-        {path:"/blog", element:<Blog />},
-        {path:"/contact", element:<Contact />},    
+        {path:"/contact", element:<Contact />},
+        {path:"/about", element:<About />},    
     ]
   }
 ])
@@ -27,6 +28,6 @@ const router = createHashRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router = {router} />
+      <RouterProvider router = {router} />
   </StrictMode>,
 )

@@ -6,9 +6,8 @@ import Nav from './Nav';
 
 const Header = () => {
   return (
-    <header
-      className="flex gap-2 justify-between items-center text-stone-200 py-6 px-4 md:px-16 bg-black fixed right-0 left-0 top-0 z-100"
-    >
+    <header className="flex gap-2 justify-between items-center text-stone-200 py-6 px-4 md:px-16 bg-black fixed right-0 left-0 top-0"
+    style={{zIndex:100}}>
       {/* <PortfolioLink /> */}
       <Nav />
       <Logo />

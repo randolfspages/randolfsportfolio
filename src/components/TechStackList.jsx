@@ -1,11 +1,14 @@
+import Headings from "./Headings"
 
 
-
+const heading = 'Full List of tools and TechStack I use'
 
 const TechStackList = () => {
   return (
-    <div className="h-screen px-8 md:px-32 mt-24">
-        <h1 className="mt-5 mb-10 text-center text-3xl">Full list of tools and TechStack I use</h1>
+    <div className="h-screen px-2 md:px-32 mt-24">
+        <h1 className="mt-5 mb-10 text-center text-4xl font-bold">
+        <Headings value={heading}/>
+        </h1>
         
         <div>
         <input id="check-box" type="checkbox" className="check-box"/>
@@ -167,9 +170,9 @@ const TechStackList = () => {
             
                 </tbody>
                 </table>
-                <label htmlFor="check-box" className="inline-block cursor-pointer  ml-1"><span className='pr-1'>|</span>READ LESS</label>
+                <label htmlFor="check-box" className="flex justify-center cursor-pointer  ml-1"><div className='pr-1 text-3xl text-center text-[#f2c854;]'>|</div>READ LESS</label>
             </div>
-            <label htmlFor="check-box" className="inline-block cursor-pointer ml-6 p-3"><span className='pr-1 md:ml-24'>|</span>READ MORE</label>
+            <label htmlFor="check-box" className="flex justify-center cursor-pointer ml-6 p-3"><div className='pr-1 text-3xl text-center text-[#f2c854;]'>|</div>READ MORE</label>
         </div>
         
     </div>

@@ -7,6 +7,7 @@ import { useEffect, useState } from "react"
 const BackToTopButton = () => {
 
     const [backToTop, setBackToTop] = useState(false);
+   
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
@@ -16,6 +17,7 @@ const BackToTopButton = () => {
         })
     }, [])
 
+
     const scrollUp = () => {
         window.scrollTo({
             top: 0,
@@ -23,10 +25,16 @@ const BackToTopButton = () => {
         })
     }
 
+   
 
   return (
     <div className="flex justify-center m-5">
-        {backToTop && (<Button onClick={scrollUp} className='fixed bottom-10 bg-transparent text-white font-bold text-4xl pt-6 pb-8'>&#8896;</Button>)}
+        {backToTop && 
+            (<Button onClick={scrollUp} className='fixed bottom-10 bg-transparent text-white font-bold text-4xl pt-6 pb-8'>
+                &#8896;
+            </Button>)
+        }
+       
     </div>
   )
 }

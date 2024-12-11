@@ -1,4 +1,4 @@
-import Projects from '../../assets/projects/Projects';
+import Projects from '../projects/Projects';
 import TechStack from '../../components/TechStack';
 // import TechStackList from '../../components/TechStackList';
 // import WorkExperience from '../../components/WorkExperience';
