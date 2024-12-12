@@ -14,7 +14,7 @@ const About = () => {
   return (
     <>
     
-      <div className="h-[100] bgimage px-8 md:px-32 pt-32 text-lg"
+      <div className="h-[100vh] bgimage px-8 md:px-32 pt-32 text-lg"
     style={{backgroundImage:`url(${BgImage})`}}>
       <motion.div className="m-10 flex items-center justify-center"
                  whileInView={{opacity:1, y:0}}

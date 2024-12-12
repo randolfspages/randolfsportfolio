@@ -2,7 +2,7 @@
 
 const Contact = () => {
   return (
-    <section className="contact mx-4 md:mx-16" style={{position:'fixed', top:'100px', right:'0px', left:'0px'}} data-page="contact">
+    <section className="h-[100vh] contact mx-4 md:mx-16" style={{position:'fixed', top:'100px', right:'0px', left:'0px'}} data-page="contact">
 
       
 

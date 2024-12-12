@@ -17,7 +17,7 @@ const Projects = () => {
     
       <>
        
-          <div className="mx-auto pb-4 px-2 md:px-16 ">
+        <div className="mx-auto pb-4 px-2 md:px-16 ">
         <motion.h2
           className="mt-32 mb-16 text-center text-4xl text-[#f2c854] font-bold"
           whileInView={{ opacity: 1, y: 0 }}
